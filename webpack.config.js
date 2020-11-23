@@ -19,7 +19,8 @@ module.exports = {
         secure:false,
         changeOrigin:true
       }
-    }
+    },
+    open:true
   },
   plugins: [
     new CleanWebpackPlugin({ cleanStaleWebpackAssets: false }),
