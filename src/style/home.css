@@ -1,0 +1,15 @@
+.home{
+  font-weight: bold;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.home .startBtn{
+  cursor: pointer;
+  width: 200px;
+}
+
+.home .startBtn:disabled{
+  background: grey;
+}

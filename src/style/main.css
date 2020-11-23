@@ -1,0 +1,30 @@
+.main{
+  font-weight: bold;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.main .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+.main .inputText{
+  text-align: center;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.main .inputText::placeholder{
+  color: #dedede;
+  text-align: center;
+}
+
+.main .reStartBtn {
+  cursor: pointer;
+  width: 200px;
+}

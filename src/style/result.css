@@ -1,0 +1,11 @@
+.result{
+  font-weight: bold;
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.result .reStartBtn{
+  cursor: pointer;
+  width: 200px;
+}
